@@ -1,0 +1,184 @@
+html 
+{
+  box-sizing: content-box;
+}
+html *, html *:before, html *:after, html *::before, html *::after 
+{
+  box-sizing: inherit;
+}
+
+body 
+{
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background: white;
+  background-size: cover;
+}
+
+h1
+{
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+}
+h2,
+h3,
+h4,
+h5,
+h6,
+p 
+{
+  font-weight: normal;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+dl,
+dd,
+menu,
+ul 
+{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ol 
+{
+  list-style-type: decimal;
+}
+
+img 
+{
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+a 
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+.title
+{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title h1
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  font-size: 300px;
+  text-align: center;
+  color: white;
+  mix-blend-mode: multiply;
+}
+
+.hero 
+{
+  padding-bottom: 0vh;
+  width: 100vw;
+  height: 559px;
+  background-color: rebeccapurple;
+  position: relative;
+  top :50%;
+}
+
+.slider 
+{
+  width: 100%;
+  height: 559px;
+  position: relative;
+  display: flex;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.slider .slide 
+{
+  width: 40%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  transition: 0.5s;
+}
+.slider .slide:nth-child(1) 
+{
+  background: url("jj3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.slider .slide:nth-child(2) 
+{
+  background: url("ck.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.slider .slide:nth-child(3) 
+{
+  background: url("sharan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.slider .slide:nth-child(4) 
+{
+  background: url("sunny.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.slider .slide:hover 
+{
+  width: 60%;
+  cursor: pointer;
+}
+
+.college h1
+{
+  scale: 0.5;
+}
+
+.college
+{
+  text-align: center;
+  width: 100vw;
+  height: 100%;
+  padding-bottom: 4%;
+  margin: 0;
+  color: white;
+  background-color: #33110e;
+}
+
+.tail
+{
+  background-color: orange;
+}
